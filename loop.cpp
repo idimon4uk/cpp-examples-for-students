@@ -28,12 +28,11 @@ int main (){
 	
 		f0 = 0;
 		f1 = 1;
-		int i = 0;
-		while(i<n){
+		int i = n;
+		while(i--){
 			buffer = f1;
 			f1=f1+f0;
 			f0=buffer;
-			i++;
 		}
 	
 		cout<<"f("<<n<<")="<<f0<<endl;
