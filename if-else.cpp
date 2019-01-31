@@ -10,7 +10,7 @@ int main (){
 	
 	int age;
 	int children_age = 14;
-	char* category;
+	string category;
 	cout<<"- How old are you? \n- I'm ";
 	cin>>age;
 	
@@ -56,7 +56,7 @@ int main (){
 	cin>>number1;
 	cout<<"enter the operator instead of '_' ('+','-','*','/'): ";
 	cin>>operator_;
-	cout<<"enter the value instead of 'b'";
+	cout<<"enter the value instead of 'b':";
 	cin>>number2;
 	
 	switch(operator_){
